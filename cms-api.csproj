@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <AssemblyName>kaset-mall-api</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MongoDB.Driver" Version="2.10.3" />
