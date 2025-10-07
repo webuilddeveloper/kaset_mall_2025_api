@@ -24,7 +24,7 @@ namespace cms_api
                 {
                     webBuilder.UseStartup<Startup>()
                     //.UseUrls("http://localhost:5000/");
-                    .UseUrls("http://localhost:9300/");
+                    .UseUrls("http://localhost:9400/");
                 });
     }
 }
