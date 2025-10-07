@@ -14,7 +14,7 @@ namespace cms_api.Models
             this._mongoConnection = "mongodb://127.0.0.1:27017";
             //this._mongoConnection = "mongodb://202.139.196.4";
             //this._databaseName = "khub_dee_prod";
-            this._databaseName = "nakhonphanom_prod";
+            this._databaseName = "kaset_mall_prod";
         }
 
         public IMongoCollection<BsonDocument> MongoClient(string collection)
